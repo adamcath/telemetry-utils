@@ -21,5 +21,5 @@ application with the -advanced-telemetry option.
 
         ./add-opt-in.py swf_file [password]
 
-If password is provided, advanced telemetry will only be visible if a mathing 
+If password is provided, advanced telemetry will only be visible if a matching 
 password is entered in Monocle. 
