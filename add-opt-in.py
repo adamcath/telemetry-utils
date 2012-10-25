@@ -29,16 +29,7 @@
 # NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-""" Adds the EnableTelemetry tag to a SWF file
-
-Run this script on your SWF to make it generate advanced telemetry, which is
-needed for Adobe Monocle's ActionScript Sampler, Stage3D Recording, and other features.
-
-This script is provided as a last resort. It's much better to compile your application
-with the -advanced-telemetry argument.
-
-Run with no arguments to see usage.
-"""
+'''See readme or run with no args for usage'''
 
 import os
 import sys
@@ -133,7 +124,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) < 2:
         print("Usage: %s SWF_FILE [PASSWORD]" % os.path.basename(inspect.getfile(inspect.currentframe())))
-	print("\nIf PASSWORD is provided, then a password will be required to view advanced telemetry in Adobe Monocle.")
+	print("\nIf PASSWORD is provided, then a password will be required to view advanced telemetry in Adobe 'Monocle'.")
         sys.exit(-1)
 
     infile = sys.argv[1]
