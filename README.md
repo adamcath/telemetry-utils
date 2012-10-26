@@ -1,6 +1,6 @@
 telemetry-utils
 =============== 
-Tools to compliment Flash's Telemetry feature.
+Tools to complement Flash's Telemetry feature.
 
 ## add-opt-in.py
 
