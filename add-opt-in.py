@@ -110,7 +110,7 @@ def outputTelemetryTag(o, passwordClear):
     
     # Password
     if passwordClear:
-        output(o, passwordDigest)
+        o.write(passwordDigest)
 
 ####################################
 # main()
