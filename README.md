@@ -2,6 +2,11 @@ telemetry-utils
 =============== 
 Tools to complement Flash's Telemetry feature.
 
+### Note
+
+This repo has moved to https://github.com/adobe/telemetry-utils
+
+
 ## add-opt-in.py
 
 Adds the EnableTelemetry tag to a SWF file for use with Adobe "Monocle".
